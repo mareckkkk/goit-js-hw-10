@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 700px;
+}
+body {
+  padding: 16px 24px;
+}
+
+.breed-select{
+max-width: 400px;
+}
+
+.cat-info {
+  padding-block: 32px;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5;
+}
+.cat-text-container {
+  margin-left: 32px;
+  max-width: 600px;
+}
+
+.cat-text-container h1{
+margin-bottom: 20px;
+text-align: center;
+}
+
+.loader {
+  font-size: 12px;
+}
+.error {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+.is-hidden {
+  display: none;
+}
